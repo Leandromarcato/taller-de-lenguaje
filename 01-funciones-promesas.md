@@ -10,6 +10,7 @@
 
 ```JS
     // Promesa almacenada en una constante
+    
     const promesa = new Promise((resolve, reject)=>{
 
         if( 10 === 11){
@@ -20,7 +21,7 @@
 
     });
 
-    promesa
+    promesa()
 ```
 
 ```JS
@@ -47,8 +48,8 @@
     function promesaTres(valorBooleano){
 
         new Promise( ()=> {
-            ( true === valorBooleano )
-            ? resolve('Los valores son iguales')
+            ( true === valorBooleano )//
+            ? resolve('Los valores son iguales')//operador ternario (evalua como V) ? (imprime algo ) : (hace otra cosa)
             : reject('Los valores son distintos')
         })
         

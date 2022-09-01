@@ -7,17 +7,20 @@
 
 
 ```JS
-function saludar(nombre){
+/*function saludar(nombre){
     let nombre = nombre;
     return 'Hola ' + nombre;
 }
 
 // Mostrar el resultado por consola
-saludar('Alejandro');
+saludar('Alejandro');*/
 ```
 
 
 ```JS
+
+
+
 function multiplicar(a, b){
     const resultado = a + b;
     return resultado;
